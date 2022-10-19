@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Titles';
+    src: url('../fonts/Cocogoose-Blod.ttf');
+}
+
+@font-face {
+    font-family: 'SubTitles';
+    src: url('../fonts/Cocogoose-Subtitle.ttf');
+}
+
+@font-face {
+    font-family: 'plainText';
+    src: url('../fonts/Cocogoose-Text.ttf');
+}
+
+/********************************
+* Code
+****************************************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    display: flex;
+    padding: 10px;
+    background-color: #566573;
+    color: white;
+    align-items: center;
+}
+
+.logo-cont{
+    width: 30%;
+}
+
+.options-cont{
+    margin: auto;
+    width: 70%;
+    align-content: flex-end;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    padding: 0%;
+}
+
+.menu li{
+    flex-grow: 1;
+    text-align: center;
+    margin: auto;
+}
+
+/*******************************************
+* Titulos
+****************************************************/
+.cont-g{
+    width: 100%;
+}
+
+.bloque-gray{
+    background-color: #CCD1D1;
+    padding: 10px;
+}
+
+.title{
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Titles';
+}
